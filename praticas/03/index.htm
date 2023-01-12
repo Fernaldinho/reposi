@@ -1,0 +1,57 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Login</title>
+    <link rel="stylesheet" href="style.css" />
+    <script src="https://unpkg.com/feather-icons"></script>
+  </head>
+  <body>
+    <div class="form-container">
+      <form>
+        <h3>SING IN</h3>
+        <div class="input-container">
+          <input type="text" placeholder="User-name" />
+          <i data-feather="user"></i>
+        </div>
+        <div class="input-container">
+          <input type="text" placeholder="User-name" />
+          <i data-feather="mail"></i>
+        </div>
+        <div class="input-container">
+          <input type="password" placeholder="password" />
+          <i data-feather="lock"></i>
+        </div>
+        <div class="input-container">
+          <input type="password" placeholder="retry-password" />
+          <i data-feather="lock"></i>
+        </div>
+        <div class="options-container">
+          <div class="checkbox-container">
+            <input type="checkbox" name="remember" id="remember" />
+            <label for="remember">Remember me</label>
+          </div><a href="google.com">Reset password</a>
+        </div>
+        <input type="submit" value="sing in">
+        <p>or sing in with</p>
+        <div class="social-media-container">
+            <div class="inco-container">
+                 <i data-feather="facebook"></i>
+            </div>
+            <div class="inco-container">
+                 <i data-feather="mail"></i>
+            </div>
+            <div class="inco-container">
+                 <i data-feather="twitter"></i>
+            </div>
+        </div>
+      </form>
+    </div>
+
+    <script>
+      feather.replace();
+    </script>
+  </body>
+</html>
